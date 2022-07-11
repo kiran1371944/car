@@ -12,18 +12,6 @@ body{
 .nav-link{
     color: white !important;
 }
-/*#house{
-    margin-left:160px;
-}
-#heart{
-    margin-left: 5px;
-}
-
-#right-search{
-  
-   margin-right: 11.25rem!important;
-}*/
-
 .carousel-inner img{
     border-radius: 20px;
     box-shadow: 0px 9px 42px  rgb(255 0 122);
@@ -89,6 +77,11 @@ body{
     padding: 0 3% 0 3%;
     align-items: center;
     }
+@media(max-width:768px){
+   .Card{
+    padding: 0 0 4.5% 24%;
+   }
+}
 
 #card1{
     box-shadow: 2px 2px 50px 6px rgb(250 255 175)
@@ -154,7 +147,7 @@ footer p{
 #history-button{
      position: absolute;
      top: 20%;
-     left: 42%;
+     left: 45%;
      font-size: 40px;
      font-family: fantasy;
      background-color: transparent;
@@ -170,6 +163,7 @@ footer p{
 @media(max-width:700px){
     #history-button{
         font-size: 20px;
+        left: 38%;
     }
 }
 .modal-title{
