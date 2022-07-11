@@ -6,19 +6,25 @@ body{
     color: rgb(253, 253, 253);
     
 }
-
-nav .navbar-nav li a{
+.navbar{
+    padding: 0 13% 0 13%;
+}
+.nav-link{
     color: white !important;
 }
-#right-search{
-   /* margin-right: 43px;*/
-   margin-right: 11.25rem!important;
+/*#house{
+    margin-left:160px;
 }
+#heart{
+    margin-left: 5px;
+}
+
+#right-search{
+  
+   margin-right: 11.25rem!important;
+}*/
+
 .carousel-inner img{
-    display: flex;
-    justify-content: center;
-    width: 1000px;
-    height: 646px;
     border-radius: 20px;
     box-shadow: 0px 9px 42px  rgb(255 0 122);
     margin-top: 10px;
@@ -39,15 +45,22 @@ nav .navbar-nav li a{
     user-select: none;
     transition: all 0.3s ease 0s;
 }
+.menu-button:active {
+    transform: translateY(10px);
+  }
 #buybtn{
     cursor: pointer;
+    color: blue;
+    font-size: 25px ;
+    text-decoration: underline;
 }
+
 .card img{
     height: 190px; ;
 }
 .Videos{
     height: 755px;
-}
+   }
 
 .Grid{
     width:100%;
@@ -71,6 +84,11 @@ nav .navbar-nav li a{
 .card:hover{
     transform: scale(1.1);
 }
+.Card{
+    float: left; 
+    padding: 0 3% 0 3%;
+    align-items: center;
+    }
 
 #card1{
     box-shadow: 2px 2px 50px 6px rgb(250 255 175)
@@ -86,20 +104,21 @@ nav .navbar-nav li a{
 
 }
 #card2:hover{
-    box-shadow: 2px 2px 18px 15px rgb(0 255 233);
+    box-shadow: 2px 2px 18px 6px rgb(0 255 233);
 }
 #card3:hover{
-    box-shadow: 2px 2px 18px 15px rgb(0 255 233);
+    box-shadow: 2px 2px 18px 6px rgb(0 255 233);
 }
 #card4:hover{
-    box-shadow: 2px 2px 18px 15px rgb(0 255 233);
+    box-shadow: 2px 2px 18px 6px rgb(0 255 233);
 }
 #card1:hover{
-    box-shadow: 2px 2px 18px 15px rgb(0 255 233);
+    box-shadow: 2px 2px 18px 6px rgb(0 255 233);
 }
 
 .parallax-scrolling{
-    background-image: url("whitecq5dam.web.1920.webp");
+    background-image: url("20201008062027_Jaguar-XF-2021-front-2.jpg");
+    
     min-height: 500px;
     background-attachment: fixed;
     background-position: center;
@@ -107,6 +126,7 @@ nav .navbar-nav li a{
     background-size: cover;
     opacity: 0.8;
 }
+
 .Footer{
     margin-top: 0px;
 }
@@ -123,7 +143,7 @@ footer p{
     color: antiquewhite;
 }
 #history img{
-    border: rgb(105, 8, 89) 5px solid; 
+    border: #9f9999 5px solid; 
     margin-top: 40px;
     width: 1000px;
     box-shadow: 1px 0px 47px -2px;  
@@ -146,6 +166,11 @@ footer p{
 }
 #history button:hover{
     background-color: rgb(71, 184, 71);
+}
+@media(max-width:700px){
+    #history-button{
+        font-size: 20px;
+    }
 }
 .modal-title{
     color: darkblue;
